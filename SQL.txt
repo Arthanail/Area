@@ -1,0 +1,5 @@
+SELECT Products.ProductName, Categorys.CategoryName
+FROM Products
+LEFT JOIN Categorys
+ON Products.ProductID=Categorys.ProductID
+ORDER BY Products.ProductName;
