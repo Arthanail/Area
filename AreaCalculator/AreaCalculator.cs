@@ -53,7 +53,7 @@ namespace AreaCalculator
             C = c;
         }
 
-        private bool RectangularTest()
+        private bool IsRectangular()
         {
             if (A > B && A > C)
             {
@@ -89,7 +89,7 @@ namespace AreaCalculator
         }
         public override Figure CreateFigure()
         {
-            if (RectangularTest() == true)
+            if (IsRectangular() == true)
             {
                 if (A > B && A > C)
                 {
